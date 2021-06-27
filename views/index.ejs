@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./index.css">
+    </head>
+    <body>
+        <div class="navcontainer">
+            <span class="title">Omegla</span>
+            <div class="tilted">Talk to Strangers!</div>
+        </div>
+        <div class="body-container">
+            <div class="rest">
+                <p class="bodyTitle">You don't need an app to use Omegle on your phone or tablet! The web site works great on mobile.</p>
+                <div class="homepage">
+                    <p class="homep">Omegle (oh·meg·ull) is a great way to meet new friends, even while practicing social distancing. When you use Omegle, you are paired randomly with another person to talk one-on-one. If you prefer, you can add your interests and you’ll be randomly paired with someone who selected some of the same interests.</p>
+                    <img class="img" src="https://www.omegle.com/static/standwithhk.jpeg" alt="">
+                </div>
+                <div class="lowerpage">
+                    <p class="para">To help you stay safe, chats are anonymous unless you tell someone who you are (not recommended!), and you can stop a chat at any time. See our Terms of Service and Community Guidelines for more info about the do’s and don’ts in using Omegle. Omegle video chat is moderated but no moderation is perfect. Users are solely responsible for their behavior while using Omegle.</p>
+                    <p class="para">You must be 18+ or 13+ with parental permission and supervision to use Omegle. See Omegle’s Terms of Service for more info. Parental control protections that may assist parents are commercially available and you can find more info at https://www.connectsafely.org/controls/ as well as other sites.</p>
+                    <p class="para">Please leave Omegle and visit an adult site instead if that's what you're looking for, and you are 18 or older.</p>
+                </div>
+                <div class="options">
+                    <h3 class="chatOption">Start Chatting:</h3>
+                    <div class="buttons">
+                        <div class="butto">
+                            <button class="text">
+                                Text
+                            </button>
+                            <!-- <h3>OR</h3> -->
+                            <!-- <p>OR</p> -->
+                            <button class="video">
+                                Video
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            console.log("Inner scripting");
+            const textBtn = document.getElementsByClassName("text")[0]
+            const videoBtn = document.getElementsByClassName("video")[0]
+            textBtn.addEventListener('click', () => {
+                window.location.href="/text"
+            })
+            videoBtn.addEventListener('click', () => {
+                window.location.href="/video"
+                // console.log("wanna VC");
+            })
+        </script>
+    </body>
+</html>

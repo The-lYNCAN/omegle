@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./text.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.1.2/socket.io.js" integrity="sha512-iZIBSs+gDyTH0ZhUem9eQ1t4DcEn2B9lHxfRMeGQhyNdSUz+rb+5A3ummX6DQTOIs1XK0gOteOg/LPtSo9VJ+w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    </head>
+    <body>
+        <div class="navcontainer">
+            <span class="title">Omegla</span>
+            <div class="tilted">Talk to Strangers!</div>
+        </div>
+        <div class="megaContainer">
+            <div class="body-container">
+                <div class="msg">
+                    <spam class="msgContainer"><b class="msgSpam">Strangers: </b>Hi</spam>
+                    <!-- <p>Hi</p> -->
+                </div>
+                
+                <div class="msg">
+                    <spam class="msgContainer"><b class="msgSpammine">You: </b>Hi</spam>
+                    <!-- <p>Hi</p> -->
+                </div>
+
+            </div>
+            <div class="inputs">
+                <button id="newBtn">
+                    Stop<br/><spam class="lowerText"><b>Esc</b></spam>
+                </button>
+                <textarea id="msgArea"></textarea>
+                <button id="sendBtn">Send<br /><span class="lowerText">Enter</span></button>
+            </div>
+        </div>
+        <script src="./text.js"></script>
+    </body>
+</html>

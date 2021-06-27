@@ -1,0 +1,119 @@
+.navcontainer{
+    background-color: white;
+    margin: 0px;
+    display: flex;
+    padding: 0px;
+    height: 9vh;
+    min-height: 90px;
+    /* position: absolute; */
+}
+
+html, body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #fff7ee;
+}
+
+.title{
+    color: orange;
+    font-size: 4rem;
+    padding: 0;
+}
+
+.tilted{
+    font-size: 2.3rem;
+    color: black;
+    margin-left: 5%;
+    transform: rotate(352deg);
+    margin-top: 1%;
+}
+
+.body-container{
+    width: 100%;
+    height: 91vh;
+    /* background: black; */
+}
+
+.rest{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 90%;
+    margin-top: 2%;
+    background: white;
+    border: solid 1px rgb(165, 165, 165);
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 5px inset rgb(212, 212, 212);
+    max-width: 722px;
+    max-height: 738px;
+    min-height: 738px;
+    min-width: 722px;
+}
+
+/* 738 722 */
+
+.bodyTitle{
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 100px; */
+    width: 100%;
+    text-align: center;
+    /* display: flex; */
+}
+
+.homepage{
+    display: flex;
+}
+
+.homep{
+    font-size: 1.2rem;
+}
+
+.lowerpage{
+
+}
+
+.para{
+    font-size: 1.2rem;
+}
+
+/* 287 150 */
+
+.img{
+    height: 150px;
+    width: 287px;
+}
+
+.chatOption{
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text{
+
+}
+
+.second{
+    margin-left: 0;
+}
+
+.butto{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.buttons{
+    display: flex;
+}
+/* 68 161 255 */
+/* 119 187 255 */
+button{
+    background: linear-gradient(90deg, rgba(68,161,255,1) 0%, rgba(81,168,255,1) 35%, rgba(119,187,255,1) 100%);
+    width: 120px;
+    height: 65px;
+    font-size: 1.5rem;
+    border-radius: 6px;
+    border: solid 1px rgb(68, 161, 255);
+    color: white;
+}
