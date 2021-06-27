@@ -24,7 +24,9 @@ const server = app.listen(Port, () => {
     console.log("Server Hosted on Port 3000. Please Visit http://localhost:3000 to visit the site");
 })
 
-const sserver = io(server)
+const sserver = io(server, {
+    cors: {origin: "*"}
+})
 const allSockets = []
 const busySockets = []
 const waitingSockets = []

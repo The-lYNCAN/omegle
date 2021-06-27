@@ -1,5 +1,5 @@
 console.log("Connected to the HTML file")
-const socket = io("localhost:3000")
+const socket = io.connect()
 var myOwnID = null
 var myRoom = ""
 
