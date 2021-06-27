@@ -1,6 +1,6 @@
 const express = require("express")
 const app = express()
-const Port = 3000
+const Port = process.env.PORT || 3000
 const path = require("path")
 const io = require("socket.io")
 const { v4: uuidv4 } = require("uuid")
